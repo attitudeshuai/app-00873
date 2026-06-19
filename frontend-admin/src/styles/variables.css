@@ -1,0 +1,77 @@
+/**
+ * 设计系统变量 - 统一颜色、字体、间距规范
+ */
+
+:root {
+  /* 主色调 - 使用蓝色系，避免高饱和度紫色 */
+  --color-primary: #409EFF;
+  --color-primary-light-9: #ecf5ff;
+  --color-primary-light-5: #a0cfff;
+
+  /* 文本颜色层级 */
+  --color-text-primary: #303133;
+  --color-text-regular: #606266;
+  --color-text-secondary: #909399;
+  --color-text-placeholder: #c0c4cc;
+
+  /* 背景颜色层级 */
+  --color-bg-page: #f5f7fa;
+  --color-bg-card: #ffffff;
+  --color-bg-hover: #f5f7fa;
+
+  /* 边框颜色 */
+  --color-border-base: #dcdfe6;
+  --color-border-light: #e4e7ed;
+  --color-border-lighter: #ebeef5;
+  --color-border-extra-light: #f2f6fc;
+
+  /* 状态颜色 */
+  --color-success: #67c23a;
+  --color-success-light: #f0f9eb;
+  --color-warning: #e6a23c;
+  --color-danger: #f56c6c;
+  --color-info: #909399;
+
+  /* 字体层级 */
+  --font-size-h1: 24px;
+  --font-size-h2: 20px;
+  --font-size-h3: 18px;
+  --font-size-h4: 16px;
+  --font-size-body: 14px;
+  --font-size-small: 12px;
+  --font-size-mini: 10px;
+
+  /* 行高 */
+  --line-height-h1: 32px;
+  --line-height-h2: 28px;
+  --line-height-h3: 24px;
+  --line-height-h4: 22px;
+  --line-height-body: 20px;
+  --line-height-small: 18px;
+
+  /* 字重 */
+  --font-weight-bold: 600;
+  --font-weight-medium: 500;
+  --font-weight-normal: 400;
+
+  /* 间距系统 - 8px基准 */
+  --spacing-xs: 4px;
+  --spacing-sm: 8px;
+  --spacing-md: 16px;
+  --spacing-lg: 24px;
+  --spacing-xl: 32px;
+
+  /* 圆角 */
+  --border-radius-base: 4px;
+  --border-radius-medium: 8px;
+  --border-radius-large: 12px;
+
+  /* 阴影层级 */
+  --shadow-sm: 0 2px 4px rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 2px 6px rgba(0, 0, 0, 0.05);
+  --shadow-lg: 0 4px 12px rgba(0, 0, 0, 0.08);
+
+  /* 过渡动画 */
+  --transition-base: all 0.2s ease-in-out;
+  --transition-fast: all 0.15s ease-in-out;
+}

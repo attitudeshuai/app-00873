@@ -1,0 +1,9 @@
+services:
+  web:
+    build:
+      context: ./frontend-admin
+      dockerfile: Dockerfile
+    ports:
+      - "8080:80"
+    restart: unless-stopped
+    container_name: smart-time-config-web
